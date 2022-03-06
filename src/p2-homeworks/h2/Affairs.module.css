@@ -1,0 +1,43 @@
+
+.affair {
+    display: flex;
+
+}
+
+.item {
+    margin: 10px;
+    width: 150px;
+}
+
+.spanPriority {
+    color: red;
+}
+
+.button {
+    margin: 15px;
+    width: 50px;
+    background: darkgreen;
+    color: white;
+    outline: none;
+}
+
+.button:focus {
+    background: lightgreen;
+    outline: black solid 1px;
+}
+
+.button:active {
+    background: lightgreen;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: cornflowerblue;
+}
+
+.middle {
+    color: orangered;
+}
