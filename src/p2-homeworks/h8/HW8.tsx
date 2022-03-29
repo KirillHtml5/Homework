@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
-
+import s from './HW8.module.css'
 
 export type UserType = {
     _id: number
@@ -23,9 +23,9 @@ function HW8() {
 
     // need to fix any
     const finalPeople = people.map((p: UserType) => (
-        <div key={p._id} >
-            <span>{p.name}</span>
-            <span>{p.age}</span>
+        <div key={p._id} className={s.user}>
+            <span className={s.item}>{p.name}</span>
+            <span className={s.item}>{p.age}</span>
         </div>
     ))
 

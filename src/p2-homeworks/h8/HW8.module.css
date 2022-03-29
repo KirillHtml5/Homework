@@ -1,0 +1,9 @@
+.user {
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    width: 250px;
+    font-size: 18px;
+}
