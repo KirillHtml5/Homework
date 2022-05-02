@@ -15,7 +15,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
     {
         type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
         onChange, onChangeRange,
-        className,value,
+        className, value,
 
         ...restProps// все остальные пропсы попадут в объект restProps
     }
