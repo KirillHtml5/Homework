@@ -21,3 +21,11 @@
 .some-text {
     color: darkslateblue;
 }
+
+.my {
+    background: #57a68c;
+}
+
+.my-text {
+    color: rgba(253, 226, 44, 0.81);
+}
