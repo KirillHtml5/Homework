@@ -1,5 +1,5 @@
 import React from 'react';
-import Request from './Request'
+import {Request} from './Request'
 import s from './HW13.module.css'
 
 export function HW13() {
@@ -7,7 +7,7 @@ export function HW13() {
         <div>
             <hr/>
             homework13
-            <div className={s.item}>
+            <div className={s.list}>
                 <Request/>
             </div>
 

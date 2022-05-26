@@ -1,5 +1,12 @@
-.item {
+.list {
     display: flex;
     margin: 10px;
     width: 150px;
+}
+
+.message {
+    font-family: Consolas;
+    height: 20px;
+    color: #295c9f;
+    width: 350px;
 }
